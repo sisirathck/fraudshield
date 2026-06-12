@@ -1,32 +1,20 @@
-# ============================================================
-# requirements.txt — FraudShield Python Dependencies
-# ============================================================
-#
-# HOW TO INSTALL ALL PACKAGES AT ONCE:
-#   pip install -r requirements.txt
-#
-# WHAT EACH PACKAGE DOES:
-# ============================================================
+# FraudShield — Python Dependencies
 
-# --- Core Data Science ---
-pandas==2.2.0          # DataFrames — the Excel of Python (loading, cleaning, analysing data)
-numpy==1.26.3          # Fast numerical computing — arrays, math, random numbers
+# Core data science
+pandas>=2.2.0
+numpy>=1.26.0
 
-# --- Machine Learning ---
-scikit-learn==1.4.0    # Industry-standard ML library (Logistic Regression, metrics, pipelines)
-imbalanced-learn==0.12.0  # SMOTE for handling the 98%/2% class imbalance problem
+# Machine learning
+scikit-learn>=1.4.0
+imbalanced-learn>=0.12.0
 
-# --- Explainability (AI Act compliance) ---
-shap==0.44.1           # Explains WHY the model made each prediction
+# Explainability
+shap>=0.44.1
 
-# --- Data Visualisation ---
-matplotlib==3.8.2      # The foundation of Python charting (used in analysis scripts)
-seaborn==0.13.2        # Beautiful statistical plots built on top of matplotlib
-plotly==5.18.0         # Interactive charts in the Streamlit dashboard
+# Visualisation
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
 
-# --- Web Dashboard ---
-streamlit==1.31.0      # Turns Python scripts into live web apps (the dashboard)
-
-# --- Jupyter (for interactive exploration) ---
-jupyter==1.0.0         # Jupyter Lab / Notebook interface
-ipykernel==6.29.2      # Python kernel for Jupyter notebooks
+# Web dashboard
+streamlit>=1.31.0
