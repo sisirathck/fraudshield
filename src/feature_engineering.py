@@ -22,7 +22,7 @@ import pandas as pd
 import numpy as np
 import warnings
 
-warnings.filterwarnings('ignore', category=pd.errors.SettingWithCopyWarning)
+warnings.filterwarnings('ignore', category=FutureWarning)
 
 
 def create_temporal_features(df: pd.DataFrame) -> pd.DataFrame:
