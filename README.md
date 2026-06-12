@@ -13,7 +13,7 @@
 built by a financial data professional who has spent 3+ years working inside the  
 systems these models are designed to protect.**
 
-[🚀 **Live Demo**](https://fraudshield.streamlit.app) &nbsp;|&nbsp; [📁 **Source Code**](https://github.com/sisirathck/fraudshield) &nbsp;|&nbsp; [🔗 **LinkedIn**](https://linkedin.com/in/sisirath)
+[🚀 **Live Demo**](https://fraudshld.streamlit.app) &nbsp;|&nbsp; [📁 **Source Code**](https://github.com/sisirathck/fraudshield) &nbsp;|&nbsp; [🔗 **LinkedIn**](https://linkedin.com/in/sisirath)
 
 </div>
 
